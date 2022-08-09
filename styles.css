@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-size: auto;
+    background-repeat: repeat-x;
+    background-color: hsl(225, 100%, 94%);
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+body p {
+    font-size: 16px;
+}
+
+.main-container {
+    background-color: white;
+    max-width: 440px;
+    margin: auto;
+    border-radius: 15px;
+    /* Shadow */
+    -webkit-box-shadow: 0px 22px 29px 12px rgba(46,74,117,0.11);
+-moz-box-shadow: 0px 22px 29px 12px rgba(46,74,117,0.11);
+box-shadow: 0px 22px 29px 12px rgba(46,74,117,0.11);
+}
+
+.hero {
+    margin-bottom: 2rem;
+}
+
+.hero .hero-img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 3rem;
+}
+
+/* Section - Text |  H1 & P */
+.content .con-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 7px 1rem;
+}
+
+.con-text h1 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.con-text p {
+    color: hsl(224, 23%, 55%);
+}
+
+/* Section - Card */
+.con-card {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 24px 3px;
+    border-radius: 11px;
+    gap: 5rem;
+    margin-top: 1rem;
+}
+
+.card-1 {
+    display: flex;
+    gap: 1rem;
+}
+
+.card-1 .card-img {
+
+}
+
+.card-1 .card-text-head {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.card-1 .card-text-desc {
+    color: hsl(224, 23%, 55%);
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.con-card .card-link {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.con-card .card-link:hover {
+    text-decoration: none;
+    color: #8180E8;
+}
+
+/* Section - Button */
+.con-btns {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.con-btns .main-btn {
+    padding: 14px;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+    
+    /* Drop Shadow */
+    -webkit-box-shadow: 0px 22px 29px 12px rgba(56,41,224,0.21);
+    -moz-box-shadow: 0px 22px 29px 12px rgba(56,41,224,0.21);
+    box-shadow: 0px 22px 29px 12px rgba(56,41,224,0.21);
+}
+
+.con-btns .main-btn:hover {
+    background-color: #8180E8;
+    /* Drop Shadow On Hover */
+    -webkit-box-shadow: 0px 22px 29px 12px rgba(129,128,232,0.21);
+    -moz-box-shadow: 0px 22px 29px 12px rgba(129,128,232,0.21);
+    box-shadow: 0px 22px 29px 12px rgba(129,128,232,0.21);
+}
+
+.con-btns .main-btn-link {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.con-btns .main-btn-link:hover {
+    color: hsl(223, 47%, 23%);
+}
